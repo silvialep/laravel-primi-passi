@@ -20,7 +20,8 @@ ul {
 
 ul li a {
     color:darkblue; 
-    text-decoration:none; 
+    text-decoration:none;
+    text-transform: capitalize;
     font-size: 1.3rem;
 }
 

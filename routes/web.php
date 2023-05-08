@@ -18,32 +18,32 @@ Route::get('/', function () {
     $two = 'World';
 
     $links = [
-        'Login',
-        'About',
-        'Shop',
-        'Contacts',
-        'Blog'
+        'login',
+        'about',
+        'shop',
+        'contacts',
+        'blog'
     ];
 
     return view('home', compact('one', 'two', 'links'));
 });
 
-Route::get('Login', function () {
-    return view('Login');
-})->name('Login');
+Route::get('login', function () {
+    return view('login');
+})->name('login');
 
-Route::get('About', function () {
-    return view('About');
-})->name('About');
+Route::get('about', function () {
+    return view('about');
+})->name('about');
 
-Route::get('Shop', function () {
-    return view('Shop');
-})->name('Shop');
+Route::get('shop', function () {
+    return view('shop');
+})->name('shop');
 
-Route::get('Contacts', function () {
-    return view('Contacts');
-})->name('Contacts');
+Route::get('contacts', function () {
+    return view('contacts');
+})->name('contacts');
 
-Route::get('Blog', function () {
-    return view('Blog');
-})->name('Blog');
+Route::get('blog', function () {
+    return view('blog');
+})->name('blog');
