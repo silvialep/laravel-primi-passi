@@ -30,20 +30,20 @@ Route::get('/', function () {
 
 Route::get('Login', function () {
     return view('Login');
-});
+})->name('Login');
 
 Route::get('About', function () {
     return view('About');
-});
+})->name('About');
 
 Route::get('Shop', function () {
     return view('Shop');
-});
+})->name('Shop');
 
 Route::get('Contacts', function () {
     return view('Contacts');
-});
+})->name('Contacts');
 
 Route::get('Blog', function () {
     return view('Blog');
-});
+})->name('Blog');

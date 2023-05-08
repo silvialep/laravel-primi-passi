@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 80px;
+    background-color: aqua;
+}
+
+ul {
+    height: 100%; 
+    list-style-type: none; 
+    display: flex; 
+    gap: 40px; 
+    align-items: center; 
+    padding: 20px;
+}
+
+ul li a {
+    color:darkblue; 
+    text-decoration:none; 
+    font-size: 1.3rem;
+}
+
+main {
+    padding: 20px;
+}
