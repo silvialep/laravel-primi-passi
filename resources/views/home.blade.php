@@ -7,6 +7,12 @@
     <title>Prima App Laravel</title>
 </head>
 <body>
-    <h1>CIAO</h1>
+    <h1>HELLO WORLD</h1>
+    <span>
+        {{$one}}
+    </span>
+    <span>
+        {{$two}}
+    </span>
 </body>
 </html>
