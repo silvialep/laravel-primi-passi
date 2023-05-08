@@ -1,0 +1,1 @@
+<h2>Pagina dello shop</h2>
